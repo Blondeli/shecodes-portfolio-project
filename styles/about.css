@@ -36,6 +36,15 @@ p {
   margin-top: 4rem;
 }
 
+footer {
+  background: #f9f7fe;
+  padding: 2rem 0 1rem 0;
+}
+
+footer p {
+  margin-top: 0;
+}
+
 .about-me {
   display: flex;
   align-items: center;

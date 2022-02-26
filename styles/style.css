@@ -47,6 +47,11 @@ main {
   padding: 4rem 5%;
 }
 
+footer {
+  background: #f9f7fe;
+  padding: 2rem 0 1rem 0;
+}
+
 .recipe-card {
   margin: 0 1.25rem 3.125rem 1.25rem;
   text-decoration: none;

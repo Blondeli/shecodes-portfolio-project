@@ -39,6 +39,15 @@ ul {
   list-style-type: none;
 }
 
+footer {
+  background: #f9f7fe;
+  padding: 2rem 0 1rem 0;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
 .about-me {
   display: flex;
   align-items: center;

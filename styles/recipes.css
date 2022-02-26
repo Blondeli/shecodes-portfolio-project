@@ -42,6 +42,11 @@ li {
   padding: 0.5rem 0;
 }
 
+footer {
+  background: #f9f7fe;
+  padding: 2rem 0 1rem 0;
+}
+
 .recipe-collection {
   margin: 2rem 5%;
   display: grid;

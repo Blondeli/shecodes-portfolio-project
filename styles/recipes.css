@@ -49,11 +49,13 @@ li {
 }
 
 .recipe-card {
-  margin: 0 3rem;
+  margin: 0 3rem 3rem 3rem;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
 }
 
 .recipe-card img {
-  border-radius: 12px;
+  border-radius: 12px 12px 0 0;
 }
 
 .recipe-card h2 {
@@ -64,6 +66,7 @@ li {
 
 .recipe-content {
   display: flex;
+  padding: 0 1rem;
 }
 
 .ingredients {

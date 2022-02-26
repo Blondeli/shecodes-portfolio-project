@@ -9,13 +9,18 @@ body {
   text-align: center;
 }
 
+nav {
+  padding: 0 5%;
+  background: white;
+}
+
 header {
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url(images/header-img.png);
+    url(../images/header-img.png);
   background-size: cover;
   color: white;
   padding: 3rem 0;
@@ -24,7 +29,7 @@ header {
 h1 {
   font-size: 4.5rem;
   font-weight: 700;
-  padding: 0 1rem;
+  padding: 3rem 1rem 0 1rem;
 }
 
 h2 {

@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding: 0 1rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: #662eed;
+  font-weight: 700;
+  margin-top: 2.5rem;
+}
+
+p {
+  font-size: 2.25rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  padding: 4rem 10%;
+}
+
+.profile-picture {
+  border-radius: 12px;
+  width: 50%;
+  height: auto;
+}
+
+.about-content {
+  text-align: start;
+  margin-left: 0rem;
+}
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    margin-top: 1.5rem§;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .about-me {
+    flex-direction: column;
+  }
+
+  .profile-picture {
+    width: 100%;
+  }
+
+  .about-content {
+    margin: 2rem 0 0 0;
+  }
+}

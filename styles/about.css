@@ -22,7 +22,7 @@ main {
 h1 {
   font-size: 4.5rem;
   font-weight: 700;
-  padding: 0 1rem;
+  padding: 2.5rem 1rem 0 1rem;
 }
 
 h2,
@@ -39,11 +39,12 @@ p {
 
 footer {
   background: #f9f7fe;
-  padding: 2rem 0 1rem 0;
+  padding: 2rem 1rem 1rem 1rem;
 }
 
 footer p {
   margin-top: 0;
+  font-size: 1rem;
 }
 
 .about-me {

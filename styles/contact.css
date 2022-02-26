@@ -17,12 +17,13 @@ nav {
 
 main {
   margin-top: 3rem;
+  flex: 1;
 }
 
 h1 {
   font-size: 4.5rem;
   font-weight: 700;
-  padding: 0 1rem;
+  padding: 2.5rem 1rem 0 1rem;
 }
 
 h2 {
@@ -42,7 +43,13 @@ ul {
 
 footer {
   background: #f9f7fe;
-  padding: 2rem 0 1rem 0;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 footer p {

@@ -22,7 +22,7 @@ main {
 h1 {
   font-size: 4.5rem;
   font-weight: 700;
-  padding: 0 1rem;
+  padding: 2.5rem 1rem 0 1rem;
 }
 
 h3 {
@@ -45,7 +45,7 @@ li {
 
 footer {
   background: #f9f7fe;
-  padding: 2rem 0 1rem 0;
+  padding: 2rem 1rem 1rem 1rem;
 }
 
 .recipe-collection {
@@ -96,9 +96,6 @@ footer {
   color: #f65282;
 }
 
-@media (max-width: 1200px) {
-}
-
 @media (max-width: 768px) {
   h1 {
     font-size: 3.5rem;
@@ -109,7 +106,7 @@ footer {
   }
 
   .recipe-card {
-    margin: 0 1rem;
+    margin: 0 1rem 3rem 1rem;
   }
 }
 

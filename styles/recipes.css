@@ -9,6 +9,11 @@ body {
   text-align: center;
 }
 
+nav {
+  padding: 0 5%;
+  background: white;
+}
+
 main {
   margin-top: 3rem;
 }
